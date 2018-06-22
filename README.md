@@ -4,7 +4,7 @@ Python chat server using websockets
 
     Environment requirements:
         - Python version >= 3.6
-        - Additional modules caputured in requirements.txt
+        - Additional modules captured in requirements.txt
 
 
     Components:
