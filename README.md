@@ -18,9 +18,14 @@ Python chat server using websockets
         3. server.py:
             - Websocket based server
             - Supports client and peer server connections
-            - On receiving a client message forwards the message if destination client is connected to same server otherwise forwards it to the peer server.
-            - On receiving a server message forwards the message to destination client and sends back success delivery message back to the originating server to be delivered to originating client. A failure delivery message is sent back if destination client is not connected.
-            - Messages are persisted via app server api after successful delivery to destination client
+            - On receiving a client message forwards the message if destination client is
+              connected to same server otherwise forwards it to the peer server.
+            - On receiving a server message forwards the message to destination client and
+              sends back success delivery message back to the originating server to be delivered
+              to originating client. A failure delivery message is sent back if destination client
+              is not connected.
+            - Messages are persisted via app server api after successful delivery to
+              destination client
 
 
 Sample interaction between user1 & user2:
